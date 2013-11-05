@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="css/jquery.mobile-1.1.0.min.css" />
+        <link rel="stylesheet" href="css/my.css" />
+
+
+
+        <script src="js/phonegap-1.1.0.js">
+        </script>
+        <script src="js/jquery.min.js">
+        </script>
+        <script src="js/jquery.mobile-1.1.0.min.js">
+        </script>
+        <script src="js/gphone.js">
+        </script>
+        <script>
+          $(document).bind('pageinit',function(){
+            var id=getParameterByName('id');
+            getPatientInfo(id);
+            var urlwithid='add_visit.html?id='+id;
+            $('#add_visit').attr('href',urlwithid);
+            });
+        </script>
+    <div data-role="page" id="patient_details">
+        <div data-theme="b" data-role="header">
+            <a data-role="button" data-iconpos="notext" data-transition="fade" data-icon="back" href="index.html" rel="external">
+                Back 
+            </a>
+            <h3>
+                Patient 
+            </h3>
+            <a data-role="button"  data-rel="dialog" data-iconpos="notext" data-transition="fade" data-icon="plus" href="#" rel="external" id="add_visit">
+                Add 
+            </a>
+        </div>
+        <div data-role="content">	
+            <ul data-role="listview" data-divider-theme="b" data-inset="true" id="patient_visit_list">
+            </ul>
+        </div>
+        <div data-theme="b" data-role="footer" data-position="fixed">
+            <h3>
+                Designed by Geotekh
+            </h3>
+        </div>
+
+    </div>
+</body>
+</html>

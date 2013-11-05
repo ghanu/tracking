@@ -1,0 +1,490 @@
+
+2012-08-10 08:10:07 | 0 ms | show full processlist | gbase | success
+2012-08-10 08:10:07 | 0 ms | show databases | gbase | success
+2012-08-10 08:10:07 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 08:10:08 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__branch_details' | gbase | success
+2012-08-10 08:10:08 | 0 ms | show full fields from `gbase`.`__branch_details` | gbase | success
+2012-08-10 08:10:08 | 0 ms | show columns from `gbase`.`__branch_details` | gbase | success
+2012-08-10 08:10:08 | 0 ms | show keys from `gbase`.`__branch_details` | gbase | success
+2012-08-10 08:10:08 | 0 ms | show character set | gbase | success
+2012-08-10 08:10:08 | 0 ms | show collation | gbase | success
+2012-08-10 08:10:30 | 0 ms | select TABLE_NAME As View_Name from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE='VIEW' | gbase | success
+2012-08-10 08:10:30 | 0 ms | select TABLE_NAME As Table_Name from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 08:10:41 | 0 ms | show full fields from `gbase`.`__company` | gbase | success
+2012-08-10 08:10:41 | 0 ms | show columns from `gbase`.`__company` | gbase | success
+2012-08-10 08:10:41 | 0 ms | show keys from `gbase`.`__company` | gbase | success
+2012-08-10 08:10:41 | 0 ms | show character set | gbase | success
+2012-08-10 08:10:41 | 0 ms | show collation | gbase | success
+2012-08-10 08:11:00 | 0 ms | show keys from `gbase`.`__company` | gbase | success
+2012-08-10 08:11:00 | 0 ms | show columns from `gbase`.`__company` | gbase | success
+2012-08-10 08:19:31 | 0 ms | select * from __city | gbase | success
+2012-08-10 08:19:31 | 0 ms | select * from __city | gbase | success
+2012-08-10 08:20:26 | 0 ms | show keys from `gbase`.`__company` | gbase | success
+2012-08-10 08:20:26 | 0 ms | show keys from `gbase`.`__company` | gbase | success
+2012-08-10 08:21:39 | 0 ms | show keys from `gbase`.`__company` | gbase | success
+2012-08-10 08:21:39 | 0 ms | show columns from `gbase`.`__company` | gbase | success
+2012-08-10 08:34:59 | 0 ms | select TABLE_NAME As Table_Name from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 08:35:00 | 0 ms | show databases | gbase | success
+2012-08-10 08:35:00 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 08:35:00 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__company' | gbase | success
+2012-08-10 08:35:00 | 0 ms | show keys from `gbase`.`__company` | gbase | success
+2012-08-10 08:35:01 | 0 ms | show columns from `gbase`.`__company` | gbase | success
+2012-08-10 08:35:06 | 0 ms | show full fields from `gbase`.`__company` | gbase | success
+2012-08-10 08:35:06 | 0 ms | show columns from `gbase`.`__company` | gbase | success
+2012-08-10 08:35:06 | 0 ms | show keys from `gbase`.`__company` | gbase | success
+2012-08-10 08:35:06 | 0 ms | show character set | gbase | success
+2012-08-10 08:35:06 | 0 ms | show collation | gbase | success
+2012-08-10 08:35:38 | 0 ms | show databases | gbase | success
+2012-08-10 08:35:38 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 08:35:38 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__company' | gbase | success
+2012-08-10 08:35:38 | 0 ms | show full fields from `gbase`.`__company` | gbase | success
+2012-08-10 08:35:38 | 0 ms | show columns from `gbase`.`__company` | gbase | success
+2012-08-10 08:35:38 | 0 ms | show keys from `gbase`.`__company` | gbase | success
+2012-08-10 08:35:38 | 0 ms | show character set | gbase | success
+2012-08-10 08:35:38 | 0 ms | show collation | gbase | success
+2012-08-10 08:35:40 | 0 ms | show full fields from `gbase`.`__company` | gbase | success
+2012-08-10 08:35:40 | 0 ms | show columns from `gbase`.`__company` | gbase | success
+2012-08-10 08:35:40 | 0 ms | show keys from `gbase`.`__company` | gbase | success
+2012-08-10 08:35:40 | 0 ms | show character set | gbase | success
+2012-08-10 08:35:40 | 0 ms | show collation | gbase | success
+2012-08-10 08:35:47 | 0 ms | show full processlist | gbase | success
+2012-08-10 08:35:52 | 0 ms | show table status from `gbase` where engine is not NULL | gbase | success
+2012-08-10 08:35:52 | 0.005 ms | show table status from `gbase` where engine is not NULL | gbase | success
+2012-08-10 08:35:58 | 0 ms | select TABLE_NAME As View_Name from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE='VIEW' | gbase | success
+2012-08-10 08:36:02 | 0 ms | select `SPECIFIC_NAME` as Procedure_Name from `INFORMATION_SCHEMA`.`ROUTINES` where `ROUTINE_SCHEMA` = 'gbase' and ROUTINE_TYPE='PROCEDURE' | gbase | success
+2012-08-10 08:36:03 | 0 ms | select `SPECIFIC_NAME` Function_Name from `INFORMATION_SCHEMA`.`ROUTINES` where `ROUTINE_SCHEMA` = 'gbase' and ROUTINE_TYPE='FUNCTION' | gbase | success
+2012-08-10 08:36:09 | 0 ms | show create table `gbase`.`__company` | gbase | success
+2012-08-10 08:36:13 | 0 ms | show keys from `gbase`.`__company` | gbase | success
+2012-08-10 08:36:13 | 0 ms | show columns from `gbase`.`__company` | gbase | success
+2012-08-10 08:36:16 | 0 ms | show table status from `gbase` like '__company' | gbase | success
+2012-08-10 08:36:22 | 0 ms | show columns from `gbase`.`__company` | gbase | success
+2012-08-10 08:36:30 | 0 ms | show full fields from `gbase`.`__company` | gbase | success
+2012-08-10 08:36:30 | 0 ms | show columns from `gbase`.`__company` | gbase | success
+2012-08-10 08:36:30 | 0 ms | show keys from `gbase`.`__company` | gbase | success
+2012-08-10 08:36:30 | 0 ms | show character set | gbase | success
+2012-08-10 08:36:30 | 0 ms | show collation | gbase | success
+2012-08-10 10:41:30 | 0 ms | show full fields from `gbase`.`__company` | gbase | success
+2012-08-10 10:41:30 | 0 ms | show columns from `gbase`.`__company` | gbase | success
+2012-08-10 10:41:30 | 0 ms | show keys from `gbase`.`__company` | gbase | success
+2012-08-10 10:41:30 | 0 ms | show character set | gbase | success
+2012-08-10 10:41:30 | 0 ms | show collation | gbase | success
+2012-08-10 10:41:31 | 0 ms | show databases | gbase | success
+2012-08-10 10:41:31 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 10:41:31 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__company' | gbase | success
+2012-08-10 10:41:37 | 0 ms | show table status from `gbase` where engine is not NULL | gbase | success
+2012-08-10 10:41:37 | 0 ms | show character set | gbase | success
+2012-08-10 10:41:37 | 0 ms | show collation | gbase | success
+2012-08-10 10:44:45 | 0 ms | show databases | gbase | success
+2012-08-10 10:44:45 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 10:44:45 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__dashboard' | gbase | success
+2012-08-10 10:44:45 | 0 ms | show full fields from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:44:45 | 0 ms | show columns from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:44:45 | 0 ms | show keys from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:44:45 | 0 ms | show character set | gbase | success
+2012-08-10 10:44:45 | 0 ms | show collation | gbase | success
+2012-08-10 10:44:50 | 0 ms | show databases | gbase | success
+2012-08-10 10:44:50 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 10:44:50 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__dashboard' | gbase | success
+2012-08-10 10:45:08 | 0 ms | show full fields from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:45:08 | 0 ms | show columns from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:45:08 | 0 ms | show keys from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:45:08 | 0 ms | show character set | gbase | success
+2012-08-10 10:45:08 | 0 ms | show collation | gbase | success
+2012-08-10 10:45:25 | 0 ms | show databases | gbase | success
+2012-08-10 10:45:25 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 10:45:25 | 0 ms | show full fields from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:45:26 | 0 ms | show columns from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:45:26 | 0 ms | show keys from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:45:26 | 0 ms | show character set | gbase | success
+2012-08-10 10:45:26 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__dashboard' | gbase | success
+2012-08-10 10:45:26 | 0 ms | show collation | gbase | success
+2012-08-10 10:45:27 | 0 ms | show full fields from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:45:27 | 0 ms | show columns from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:45:27 | 0 ms | show keys from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:45:27 | 0 ms | show character set | gbase | success
+2012-08-10 10:45:27 | 0 ms | show collation | gbase | success
+2012-08-10 10:45:36 | 0 ms | show character set | gbase | success
+2012-08-10 10:45:36 | 0 ms | show collation | gbase | success
+2012-08-10 10:47:46 | 0 ms | show databases | gbase | success
+2012-08-10 10:47:46 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 10:47:46 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__widgets' | gbase | success
+2012-08-10 10:47:47 | 0 ms | show full fields from `gbase`.`__widgets` | gbase | success
+2012-08-10 10:47:47 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 10:47:47 | 0 ms | show keys from `gbase`.`__widgets` | gbase | success
+2012-08-10 10:47:47 | 0 ms | show character set | gbase | success
+2012-08-10 10:47:47 | 0 ms | show collation | gbase | success
+2012-08-10 10:50:30 | 0 ms | show databases | gbase | success
+2012-08-10 10:50:30 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 10:50:30 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__dashboard_widget_relation' | gbase | success
+2012-08-10 10:50:30 | 0 ms | show full fields from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:50:30 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:50:30 | 0 ms | show keys from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:50:30 | 0 ms | show character set | gbase | success
+2012-08-10 10:50:30 | 0 ms | show collation | gbase | success
+2012-08-10 10:50:34 | 0 ms | show databases | gbase | success
+2012-08-10 10:50:34 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 10:50:34 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__dashboard_widget_relation' | gbase | success
+2012-08-10 10:50:36 | 0 ms | show full fields from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:50:36 | 0 ms | show columns from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:50:36 | 0 ms | show keys from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:50:36 | 0 ms | show character set | gbase | success
+2012-08-10 10:50:36 | 0 ms | show collation | gbase | success
+2012-08-10 10:50:39 | 0 ms | show full fields from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:50:39 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:50:39 | 0 ms | show keys from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:50:39 | 0 ms | show character set | gbase | success
+2012-08-10 10:50:39 | 0 ms | show collation | gbase | success
+2012-08-10 10:50:42 | 0 ms | show full fields from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:50:42 | 0 ms | show columns from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:50:42 | 0 ms | show keys from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:50:42 | 0 ms | show character set | gbase | success
+2012-08-10 10:50:42 | 0 ms | show collation | gbase | success
+2012-08-10 10:50:48 | 0 ms | show databases | gbase | success
+2012-08-10 10:50:48 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 10:50:48 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__dashboard' | gbase | success
+2012-08-10 10:50:49 | 0 ms | show full fields from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:50:49 | 0 ms | show columns from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:50:49 | 0 ms | show keys from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:50:49 | 0 ms | show character set | gbase | success
+2012-08-10 10:50:49 | 0 ms | show collation | gbase | success
+2012-08-10 10:50:50 | 0 ms | show full fields from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:50:50 | 0 ms | show columns from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:50:50 | 0 ms | show keys from `gbase`.`__dashboard` | gbase | success
+2012-08-10 10:50:50 | 0 ms | show character set | gbase | success
+2012-08-10 10:50:50 | 0 ms | show collation | gbase | success
+2012-08-10 10:50:53 | 0 ms | show full fields from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:50:53 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:50:53 | 0 ms | show keys from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:50:53 | 0 ms | show character set | gbase | success
+2012-08-10 10:50:53 | 0 ms | show collation | gbase | success
+2012-08-10 10:53:02 | 0 ms | show full fields from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:53:02 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:53:02 | 0 ms | show keys from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:53:02 | 0 ms | show character set | gbase | success
+2012-08-10 10:53:02 | 0 ms | show collation | gbase | success
+2012-08-10 10:53:02 | 0 ms | show databases | gbase | success
+2012-08-10 10:53:02 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 10:53:02 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__dashboard_widget_relation' | gbase | success
+2012-08-10 10:53:04 | 0 ms | show full fields from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:53:04 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:53:04 | 0 ms | show keys from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 10:53:04 | 0 ms | show character set | gbase | success
+2012-08-10 10:53:04 | 0 ms | show collation | gbase | success
+2012-08-10 11:56:47 | 0 ms | select * from __dashboard | gbase | success
+2012-08-10 11:56:47 | 0 ms | select * from __dashboard | gbase | success
+2012-08-10 11:58:43 | 0 ms | show full fields from `gbase`.`__dashboard` | gbase | success
+2012-08-10 11:58:43 | 0 ms | show columns from `gbase`.`__dashboard` | gbase | success
+2012-08-10 11:58:43 | 0 ms | show keys from `gbase`.`__dashboard` | gbase | success
+2012-08-10 11:58:43 | 0 ms | show character set | gbase | success
+2012-08-10 11:58:43 | 0 ms | show collation | gbase | success
+2012-08-10 11:58:46 | 0 ms | show columns from `gbase`.`__dashboard` | gbase | success
+2012-08-10 11:59:33 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:00:27 | 0 ms | show full fields from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:00:27 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:00:27 | 0 ms | show keys from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:00:27 | 0 ms | show character set | gbase | success
+2012-08-10 12:00:27 | 0 ms | show collation | gbase | success
+2012-08-10 12:00:41 | 0 ms | show full fields from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:00:41 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:00:41 | 0 ms | show keys from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:00:41 | 0 ms | show character set | gbase | success
+2012-08-10 12:00:41 | 0 ms | show collation | gbase | success
+2012-08-10 12:00:41 | 0 ms | show databases | gbase | success
+2012-08-10 12:00:41 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 12:00:42 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__widgets' | gbase | success
+2012-08-10 12:00:43 | 0 ms | show full fields from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:00:43 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:00:43 | 0 ms | show keys from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:00:43 | 0 ms | show character set | gbase | success
+2012-08-10 12:00:43 | 0 ms | show collation | gbase | success
+2012-08-10 12:00:44 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:00:57 | 0 ms | select * from __widgets | gbase | success
+2012-08-10 12:00:57 | 0 ms | select * from __widgets | gbase | success
+2012-08-10 12:02:18 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:02:28 | 0 ms | show full fields from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:02:28 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:02:28 | 0 ms | show keys from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:02:28 | 0 ms | show character set | gbase | success
+2012-08-10 12:02:28 | 0 ms | show collation | gbase | success
+2012-08-10 12:03:01 | 0 ms | show full fields from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:03:02 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:03:02 | 0 ms | show keys from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:03:02 | 0 ms | show character set | gbase | success
+2012-08-10 12:03:02 | 0 ms | show collation | gbase | success
+2012-08-10 12:03:02 | 0 ms | show databases | gbase | success
+2012-08-10 12:03:02 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 12:03:02 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__widgets' | gbase | success
+2012-08-10 12:03:02 | 0 ms | show full fields from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:03:02 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:03:02 | 0 ms | show keys from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:03:02 | 0 ms | show character set | gbase | success
+2012-08-10 12:03:02 | 0 ms | show collation | gbase | success
+2012-08-10 12:03:21 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:03:29 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:03:29 | 0 ms | show databases | gbase | success
+2012-08-10 12:03:29 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 12:03:29 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__widgets' | gbase | success
+2012-08-10 12:04:26 | 0 ms | show full fields from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:04:26 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:04:26 | 0 ms | show keys from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:04:26 | 0 ms | show character set | gbase | success
+2012-08-10 12:04:26 | 0 ms | show collation | gbase | success
+2012-08-10 12:04:31 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:06:15 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:14:15 | 0 ms | show columns from `gbase`.`__dashboard` | gbase | success
+2012-08-10 12:15:04 | 0 ms | show full fields from `gbase`.`__dashboard` | gbase | success
+2012-08-10 12:15:04 | 0 ms | show columns from `gbase`.`__dashboard` | gbase | success
+2012-08-10 12:15:04 | 0 ms | show keys from `gbase`.`__dashboard` | gbase | success
+2012-08-10 12:15:04 | 0 ms | show character set | gbase | success
+2012-08-10 12:15:04 | 0 ms | show collation | gbase | success
+2012-08-10 12:15:19 | 0 ms | show databases | gbase | success
+2012-08-10 12:15:19 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 12:15:19 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__dashboard' | gbase | success
+2012-08-10 12:15:20 | 0 ms | show full fields from `gbase`.`__dashboard` | gbase | success
+2012-08-10 12:15:20 | 0 ms | show columns from `gbase`.`__dashboard` | gbase | success
+2012-08-10 12:15:20 | 0 ms | show keys from `gbase`.`__dashboard` | gbase | success
+2012-08-10 12:15:20 | 0 ms | show character set | gbase | success
+2012-08-10 12:15:20 | 0 ms | show collation | gbase | success
+2012-08-10 12:15:20 | 0 ms | show full fields from `gbase`.`__dashboard` | gbase | success
+2012-08-10 12:15:20 | 0 ms | show columns from `gbase`.`__dashboard` | gbase | success
+2012-08-10 12:15:20 | 0 ms | show keys from `gbase`.`__dashboard` | gbase | success
+2012-08-10 12:15:20 | 0 ms | show character set | gbase | success
+2012-08-10 12:15:20 | 0 ms | show collation | gbase | success
+2012-08-10 12:16:59 | 0 ms | show full fields from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:16:59 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:16:59 | 0 ms | show keys from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:16:59 | 0 ms | show character set | gbase | success
+2012-08-10 12:16:59 | 0 ms | show collation | gbase | success
+2012-08-10 12:17:02 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:17:48 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:19:05 | 0 ms | show full processlist | gbase | success
+2012-08-10 12:19:09 | 0 ms | show table status from `gbase` where engine is not NULL | gbase | success
+2012-08-10 12:20:43 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:25:57 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 12:28:43 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:28:55 | 0 ms | show full fields from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:28:55 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:28:55 | 0 ms | show keys from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:28:55 | 0 ms | show character set | gbase | success
+2012-08-10 12:28:55 | 0 ms | show collation | gbase | success
+2012-08-10 12:29:57 | 0 ms | show full fields from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:29:57 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:29:57 | 0 ms | show keys from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:29:57 | 0 ms | show character set | gbase | success
+2012-08-10 12:29:57 | 0 ms | show collation | gbase | success
+2012-08-10 12:30:04 | 0 ms | show databases | gbase | success
+2012-08-10 12:30:04 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 12:30:04 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__dashboard_widget_relation' | gbase | success
+2012-08-10 12:30:04 | 0 ms | show full fields from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:30:04 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:30:04 | 0 ms | show keys from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:30:04 | 0 ms | show character set | gbase | success
+2012-08-10 12:30:04 | 0 ms | show collation | gbase | success
+2012-08-10 12:30:06 | 0 ms | show full fields from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:30:06 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:30:06 | 0 ms | show keys from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:30:06 | 0 ms | show character set | gbase | success
+2012-08-10 12:30:06 | 0 ms | show collation | gbase | success
+2012-08-10 12:30:41 | 0 ms | show databases | gbase | success
+2012-08-10 12:30:41 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 12:30:41 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__dashboard_widget_relation' | gbase | success
+2012-08-10 12:30:41 | 0 ms | show full fields from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:30:41 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:30:41 | 0 ms | show keys from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:30:41 | 0 ms | show character set | gbase | success
+2012-08-10 12:30:41 | 0 ms | show collation | gbase | success
+2012-08-10 12:30:42 | 0 ms | show full fields from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:30:42 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:30:42 | 0 ms | show keys from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:30:42 | 0 ms | show character set | gbase | success
+2012-08-10 12:30:42 | 0 ms | show collation | gbase | success
+2012-08-10 12:31:50 | 0 ms | show databases | gbase | success
+2012-08-10 12:31:50 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 12:31:50 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__dashboard_widget_relation' | gbase | success
+2012-08-10 12:31:50 | 0 ms | show full fields from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:31:50 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:31:50 | 0 ms | show keys from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:31:50 | 0 ms | show character set | gbase | success
+2012-08-10 12:31:50 | 0 ms | show collation | gbase | success
+2012-08-10 12:31:52 | 0 ms | show full fields from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:31:52 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:31:52 | 0 ms | show keys from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:31:52 | 0 ms | show character set | gbase | success
+2012-08-10 12:31:52 | 0 ms | show collation | gbase | success
+2012-08-10 12:31:53 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` | gbase | success
+2012-08-10 12:45:13 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 13:21:05 | 0 ms | show columns from `gbase`.`admission` | gbase | success
+2012-08-10 13:30:52 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 13:31:19 | 0 ms | show full fields from `gbase`.`__widgets` | gbase | success
+2012-08-10 13:31:19 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 13:31:19 | 0 ms | show keys from `gbase`.`__widgets` | gbase | success
+2012-08-10 13:31:19 | 0 ms | show character set | gbase | success
+2012-08-10 13:31:19 | 0 ms | show collation | gbase | success
+2012-08-10 13:31:40 | 0 ms | show full fields from `gbase`.`__widgets` | gbase | success
+2012-08-10 13:31:40 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 13:31:41 | 0 ms | show databases | gbase | success
+2012-08-10 13:31:41 | 0 ms | show keys from `gbase`.`__widgets` | gbase | success
+2012-08-10 13:31:41 | 0 ms | show character set | gbase | success
+2012-08-10 13:31:41 | 0 ms | select TABLE_NAME from `information_schema`.`TABLES` where TABLE_SCHEMA = 'gbase' and TABLE_TYPE = 'BASE TABLE' | gbase | success
+2012-08-10 13:31:41 | 0 ms | show collation | gbase | success
+2012-08-10 13:31:41 | 0 ms | select COLUMN_NAME, COLUMN_TYPE, COLUMN_KEY from `information_schema`.`COLUMNS` where TABLE_SCHEMA = 'gbase' and TABLE_NAME = '__widgets' | gbase | success
+2012-08-10 13:31:41 | 0 ms | show full fields from `gbase`.`__widgets` | gbase | success
+2012-08-10 13:31:41 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 13:31:41 | 0 ms | show keys from `gbase`.`__widgets` | gbase | success
+2012-08-10 13:31:41 | 0 ms | show character set | gbase | success
+2012-08-10 13:31:41 | 0 ms | show collation | gbase | success
+2012-08-10 13:37:34 | 0 ms | show columns from `gbase`.`__widgets` | gbase | success
+2012-08-10 14:11:34 | 0 ms | select `TABLE_NAME` from `INFORMATION_SCHEMA`.`TABLES` \r\n				where `TABLE_SCHEMA` = 'gbase' \r\n				and `TABLE_TYPE` = 'BASE TABLE' |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__blood_group` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__blood_group` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__blood_group` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__branch_details` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__branch_details` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__branch_details` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__city` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__city` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__city` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__company` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__company` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__company` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__country` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__country` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__country` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__currency` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__currency` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__currency` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__dashboard` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__dashboard` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__dashboard` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__dashboard_widget_relation` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__dashboard_widget_relation` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__designation` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__designation` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__designation` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__localization` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__localization` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__localization` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__login` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__login` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__login` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__menu` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__menu` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__menu` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__report_columns` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__report_columns` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__report_columns` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__report_customizations` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__report_customizations` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__report_customizations` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__report_filters` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__report_filters` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__report_filters` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__reports` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__reports` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__reports` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__sequence` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__sequence` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__sequence` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__state` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__state` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__state` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__user_details` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__user_details` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__user_details` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__user_menu_details` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__user_menu_details` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__user_menu_details` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__user_type` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__user_type` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__user_type` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`__widgets` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__widgets` |  | success
+2012-08-10 14:11:34 | 0 ms | show columns from `gbase`.`__widgets` |  | success
+2012-08-10 14:11:34 | 0 ms | show create table `gbase`.`admission` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`admission` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`admission` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`class_section_relation` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`class_section_relation` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`class_section_relation` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`class_subject_relation` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`class_subject_relation` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`class_subject_relation` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`driver` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`driver` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`driver` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`education_details` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`education_details` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`education_details` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`employees` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`employees` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`employees` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`experence_details` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`experence_details` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`experence_details` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`fees` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`fees` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`fees` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`fees_dues` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`fees_dues` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`fees_dues` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`fees_structure` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`fees_structure` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`fees_structure` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`fees_transactions` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`fees_transactions` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`fees_transactions` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`fees_type` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`fees_type` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`fees_type` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`mclass` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`mclass` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`mclass` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`payment_transaction_details` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`payment_transaction_details` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`payment_transaction_details` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`pre_admission` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`pre_admission` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`pre_admission` |  | success
+2012-08-10 14:11:35 | 0 ms | show create table `gbase`.`route_allocation` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`route_allocation` |  | success
+2012-08-10 14:11:35 | 0 ms | show columns from `gbase`.`route_allocation` |  | success
+2012-08-10 14:11:36 | 0 ms | show create table `gbase`.`route_details` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`route_details` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`route_details` |  | success
+2012-08-10 14:11:36 | 0 ms | show create table `gbase`.`screening` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`screening` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`screening` |  | success
+2012-08-10 14:11:36 | 0 ms | show create table `gbase`.`sections` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`sections` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`sections` |  | success
+2012-08-10 14:11:36 | 0 ms | show create table `gbase`.`stage_details` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`stage_details` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`stage_details` |  | success
+2012-08-10 14:11:36 | 0 ms | show create table `gbase`.`subjects` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`subjects` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`subjects` |  | success
+2012-08-10 14:11:36 | 0 ms | show create table `gbase`.`teacher` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`teacher` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`teacher` |  | success
+2012-08-10 14:11:36 | 0 ms | show create table `gbase`.`test_ui` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`test_ui` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`test_ui` |  | success
+2012-08-10 14:11:36 | 0 ms | show create table `gbase`.`test_ui_child` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`test_ui_child` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`test_ui_child` |  | success
+2012-08-10 14:11:36 | 0 ms | show create table `gbase`.`time_table` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`time_table` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`time_table` |  | success
+2012-08-10 14:11:36 | 0 ms | show create table `gbase`.`time_table_settings` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`time_table_settings` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`time_table_settings` |  | success
+2012-08-10 14:11:36 | 0 ms | show create table `gbase`.`transportation` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`transportation` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`transportation` |  | success
+2012-08-10 14:11:36 | 0 ms | show create table `gbase`.`trip_sheet` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`trip_sheet` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`trip_sheet` |  | success
+2012-08-10 14:11:36 | 0 ms | show create table `gbase`.`vehicle` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`vehicle` |  | success
+2012-08-10 14:11:36 | 0 ms | show columns from `gbase`.`vehicle` |  | success

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="css/jquery.mobile-1.1.0.min.css" />
+        <link rel="stylesheet" href="css/my.css" />
+        <link rel="stylesheet" href="css/jqm-datebox.css" />
+        
+        <script src="js/phonegap-1.1.0.js">
+        </script>
+        <script src="js/jquery.min.js">
+        </script>
+        <script src="js/jquery.mobile-1.1.0.min.js">
+        </script>
+         <script src="js/jqm-datebox.core.js">
+        </script>
+        
+        
+        <script src="js/jquery.mobile.datebox.js">
+        </script>
+        <script src="js/gphone.js">
+        </script>
+        <script>
+    <script type="text/javascript" charset="utf-8">
+
+    var pictureSource;   // picture source
+    var destinationType; // sets the format of returned value 
+
+    // Wait for PhoneGap to connect with the device
+    //
+    document.addEventListener("deviceready",onDeviceReady,false);
+
+    // PhoneGap is ready to be used!
+    //
+    function onDeviceReady() {
+        pictureSource=navigator.camera.PictureSourceType;
+        destinationType=navigator.camera.DestinationType;
+    }
+
+    // Called when a photo is successfully retrieved
+    //
+    function onPhotoDataSuccess(imageData) {
+      // Uncomment to view the base64 encoded image data
+      // console.log(imageData);
+
+      // Get image handle
+      //
+      var smallImage = document.getElementById('smallImage');
+
+      // Unhide image elements
+      //
+      smallImage.style.display = 'block';
+
+      // Show the captured photo
+      // The inline CSS rules are used to resize the image
+      //
+      smallImage.src = "data:image/jpeg;base64," + imageData;
+    }
+
+    // Called when a photo is successfully retrieved
+    //
+    function onPhotoURISuccess(imageURI) {
+      // Uncomment to view the image file URI 
+      // console.log(imageURI);
+
+      // Get image handle
+      //
+      var largeImage = document.getElementById('largeImage');
+
+      // Unhide image elements
+      //
+      largeImage.style.display = 'block';
+
+      // Show the captured photo
+      // The inline CSS rules are used to resize the image
+      //
+      largeImage.src = imageURI;
+    }
+
+    // A button will call this function
+    //
+    function capturePhoto() {
+      // Take picture using device camera and retrieve image as base64-encoded string
+      navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 50 });
+    }
+
+    // A button will call this function
+    //
+    function capturePhotoEdit() {
+      // Take picture using device camera, allow edit, and retrieve image as base64-encoded string  
+      navigator.camera.getPicture(onPhotoDataSuccess, onFail, { quality: 20, allowEdit: true }); 
+    }
+
+    // A button will call this function
+    //
+    function getPhoto(source) {
+      // Retrieve image file location from specified source
+      navigator.camera.getPicture(onPhotoURISuccess, onFail, { quality: 50, 
+        destinationType: destinationType.FILE_URI,
+        sourceType: source });
+    }
+
+    // Called if something bad happens.
+    // 
+    function onFail(message) {
+      alert('Failed because: ' + message);
+    }            
+        </script>
+    <div data-role="page" id="add_patient_details">
+
+        <div data-theme="b" data-role="header">
+            <a data-role="button" data-transition="fade" data-icon="back" href="index.html" data-iconpos="notext" rel="external">
+                Back to list
+            </a>
+
+            <h3>
+                Add Patient 
+            </h3>
+
+        </div>
+
+        <div data-role="content">	
+
+            <div data-role="fieldcontain">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required="required"/>
+
+            </div>
+            <div data-role="fieldcontain">
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required="required"/>
+            </div>
+            <div data-role="fieldcontain">
+                <label for="mobile">Mobile No.</label>
+                <input type="number" id="mobile" name="mobile" required="required"/>
+            </div>
+            <div data-role="fieldcontain">
+                <label for="alt_mobile">Alternate Mobile:</label>
+                <input type="number" id="alt_mobile" name="alt_mobile" />
+            </div>
+            <div data-role="fieldcontain">
+                <label for="first_visit">First Visit on:</label>
+                <input type="date" id="first_visit" name="first_visit" required="required" data-role="datebox" data-options='{"mode": "calbox", "useFocus": true}'/>
+            </div>
+            <div data-role="fieldcontain">
+                <label for="complaint">Health Issue(s) & Remarks:</label>
+                <textarea cols="50" id="complaint" name="complaint" required="required"></textarea>
+            </div>
+            <div data-role="fieldcontain">
+                <label for="refered_by">Referred by </label>
+                <input type="text" id="refered_by" name="refered_by" required="required"/>
+            </div>
+    <button onclick="capturePhoto();">Capture Photo</button> <br>
+    <img style="display:none;width:60px;height:60px;" id="smallImage" src="" />
+    <img style="display:none;" id="largeImage" src="" />
+    <button onclick="capturePhotoEdit();">Capture Editable Photo</button> <br>
+    <button onclick="getPhoto(pictureSource.PHOTOLIBRARY);">From Photo Library</button><br>
+    <button onclick="getPhoto(pictureSource.SAVEDPHOTOALBUM);">From Photo Album</button><br>
+            <a data-role="button" data-transition="fade" onclick="addPatients()" id="submit" data-icon="plus" >
+                Add Patient
+            </a>
+
+        </div>
+        <div data-theme="b" data-role="footer" data-position="fixed">
+            <h3>
+                Designed by Geotekh
+            </h3>
+        </div>
+
+    </div>
+</body>
+</html>
+

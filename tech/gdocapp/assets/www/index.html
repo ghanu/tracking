@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="css/jquery.mobile-1.1.0.min.css" />
+        <link rel="stylesheet" href="css/my.css" />
+        <style>
+            .ui-listview-filter{
+                margin-top: 5px;
+
+            }
+        </style>
+        <script src="js/phonegap-1.1.0.js">
+        </script>
+        <script src="js/jquery.min.js">
+        </script>
+        <script src="js/jquery.mobile-1.1.0.min.js">
+        </script>
+        <script src="js/gphone.js">
+        </script>
+        <script>
+        
+            $(document).bind('pageinit',function(){
+                showPatients();
+            });
+        </script>
+    </head>
+    <body>
+        <!-- Home -->
+        <div data-role="page" id="patient_list_page">
+            <div data-theme="b" data-role="header">
+                <h3>
+                    Welcome Doctor
+                </h3>
+                <a data-mini="true" rel="external" data-icon="plus" href="add_patient.html" data-inline="true" data-iconpos="notext">Add Patient</a>
+            </div>
+            <div data-role="content" >
+                
+                <ul data-role="listview" data-divider-theme="b" data-inset="true" data-filter="true" id="patient_list" data-split="true" data-split-theme="d" data-filter-placeholder="Search by Names or Phone Numbers">
+                    
+                </ul>
+                
+            </div> 
+            <div data-theme="b" data-role="footer" >
+                <h3>
+                    Designed by Geotekh
+                </h3>
+            </div>
+        </div>
+
+    </body>
+</html>

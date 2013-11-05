@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<gbase_config><tablenames>class</tablenames><layout>vertical</layout><pageheading>Class</pageheading><pagetitle>Class</pagetitle><addmenu>on</addmenu><class>Class</class><class_type>text</class_type><class_mandatory>on</class_mandatory><class_error>no_validations</class_error><class_validation_pattern_value></class_validation_pattern_value><class_default_value></class_default_value><class_column_order></class_column_order><class_column_group></class_column_group><__columns>id|class</__columns><submit>Submit</submit></gbase_config>

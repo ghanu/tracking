@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="css/jquery.mobile-1.1.0.min.css" />
+        <link rel="stylesheet" href="css/my.css" />
+        <link rel="stylesheet" href="css/jqm-datebox.css" />
+
+        <script src="js/jquery.min.js">
+        </script>
+        <script src="js/phonegap-1.1.0.js">
+        </script>
+        <script src="js/jquery.mobile-1.1.0.min.js">
+        </script>
+        
+        <script src="js/jqm-datebox.core.js">
+        </script>
+        
+        
+        <script src="js/jquery.mobile.datebox.js">
+        </script>
+       
+        <script src="js/gphone.js">
+        </script>
+        <script>
+            //reset type=date inputs to text
+            $( document ).bind( "pageinit", function(){
+                
+                var id=getParameterByName('id');
+                
+                var urlwithid='patient_info.html?id='+id;
+                $('#back').attr('href',urlwithid);
+                $('#patient_id').val(id);
+                
+               
+            });	
+                
+               
+                
+        </script>
+
+    <div data-role="page" id="patient_details">
+
+        <div data-theme="b" data-role="header">
+            <h3>
+                Add Patient Visit
+            </h3>
+            <a data-role="button" data-iconpos="notext" data-transition="fade" data-icon="back" href="#" rel="external" id="back">
+                Back to list
+            </a>
+        </div>
+
+        <div data-role="content">	
+            <div data-role="fieldcontain">
+                <label for="complaint">Complaint:</label>
+                <textarea cols="40" rows="8" name="complaint" id="complaint"></textarea>
+
+            </div>
+            <div data-role="fieldcontain">
+                <label for="treatment">Treatment:</label>
+                <textarea cols="40" rows="8" name="treatment" id="treatment"></textarea>
+            </div>
+            <div data-role="fieldcontain">
+                <label for="visit_date">Visit Date:</label>
+                <input name="visit_date" id="visit_date" type="date" data-role="datebox" data-options='{"mode": "calbox", "useFocus": true}' />
+                <input name="patient_id" id="patient_id" type="hidden" value=""/>
+            </div>
+            <a data-role="button" data-transition="fade" onclick="addVisit()" id="submit" data-icon="plus" >
+                Add Visit
+            </a>
+        </div>
+        <div data-theme="b" data-role="footer" data-position="fixed">
+            <h3>
+                Designed by Geotekh
+            </h3>
+        </div>
+    </div>
+
+</body>
+</html>

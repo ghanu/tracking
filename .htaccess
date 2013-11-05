@@ -1,0 +1,14 @@
+IndexIgnore *
+<Files *.inc>
+    Deny from all
+</Files>
+
+
+
+RewriteEngine On
+
+
+#RewriteRule ^([^/]*)/([^/]*)/([^/]*)\.html$ /index.php?file=$1&action=$2&id=$3 [L]
+
+
+#RewriteRule ^index/([^/]*)/([^/]*)/([^/]*)$ /index.php?file=$1&action=$2&id=$3 [L]
